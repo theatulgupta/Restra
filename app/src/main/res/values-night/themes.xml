@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Restra" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_red</item>
+        <item name="colorPrimaryVariant">@color/dark_red</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- This line below is for enabling the transition-->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- The two below lines are for setting the enter and exit transitions for activities-->
+        <item name="android:windowEnterTransition">@transition/trans_anim</item>
+        <item name="android:windowExitTransition">@transition/trans_anim</item>
+    </style>
+
+</resources>

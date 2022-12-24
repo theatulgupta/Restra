@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Restra</string>
+    <string name="preference_name">SavedPreference</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="log_out">Log out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="restra_logo">Restra Logo</string>
+
+    <!--    FAQ's-->
+    <string name="q1">Q1 How does Restra works?</string>
+    <string name="a1">   Restra is a Restaurant Finder App, which finds best restaurants all over the world.</string>
+
+    <string name="q2">Q2 How to mark Favourites Restaurant from the Restaurant List?</string>
+    <string name="a2">   From the Restaurant List, tap on Heart Icon to mark your favourite restaurant. And it will be added to Favourite List. </string>
+
+    <string name="q3">Q3 How to authenticate to use the Restra?</string>
+    <string name="a3">   User can access Restra App just by creating an account with Email and Password, or simply login with your existing Google Account.</string>
+
+    <string name="q4">Q4 How to give rating to particular restaurant?</string>
+    <string name="a4">   To improve performance of anything feedback of customer is very important. Restra also providing facility to give your feedback to restaurants. Just few simple clicks and your feedback will be recorded. Go to About page of any restaurant and Click on Add Reviews. Give your feedback and it will be display on particular restaurant page.
+    </string>
+
+    <string name="q5">Q5 How to go on particular restaurant page?</string>
+    <string name="a5">   There are multiple ways to go on particular restaurant page. Search restaurant city wise or cuisine wise and select restaurant from list. Restra providing one unique functionality too i.e. unique URL for every restaurant. If restaurant URL on Restra is known then type URL and directly go to restaurant page.</string>
+
+    <string name="q6">Q6 Who is the developer of Restra?</string>
+    <string name="a6">   Restra is developed by Atul Kumar Gupta aka AG K Minds, who is a Native Android App Developer. He is currently pursuing B.Tech in Mechanical Engineering from Jabalpur Engineering College.</string>
+    <string name="action_sort">Sort Action</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_cart">MyCartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="confirmMessage">Your order has been successfully completed. Within a moment you will receive a notification with the receipt of your purchase and track every steps of your order.</string>
+    <string name="validPassword"><![CDATA[A password should be alphanumeric. First letter of the password should be capital. Password must contain a special character (@, $, !, &, etc). Password length must be greater than 8 characters.]]></string>
+    <string name="order_history">Order History</string>
+    <string name="about_us">About Us</string>
+    <string name="help">Need Help?</string>
+
+</resources>

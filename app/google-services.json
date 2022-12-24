@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "250727848020",
+    "project_id": "restra-d9041",
+    "storage_bucket": "restra-d9041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250727848020:android:d105bb0d81eb8dd3a475c1",
+        "android_client_info": {
+          "package_name": "com.agkminds.restra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250727848020-lp5ls88shct7vgvl41p4bgtksha6lscs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agkminds.restra",
+            "certificate_hash": "07297a4f3eb12e7778e141b2ffa8e4cf6096dad4"
+          }
+        },
+        {
+          "client_id": "250727848020-gt3rilfsneoq7c9lji1t8qf94m732mfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqDJ0vkBZYHNF0f99yEyE5nm0Q1k3x_S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250727848020-gt3rilfsneoq7c9lji1t8qf94m732mfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

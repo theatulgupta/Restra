@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".activity.RestaurantDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/displayOrderConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgOrderConfirm"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/ic_order_placed" />
+
+        <TextView
+            android:id="@+id/txtConfirm"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgOrderConfirm"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/n_extrabold"
+            android:text="Your Order has Been Placed Successfully."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txtConfirmDesc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtConfirm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/n_bold"
+            android:text="@string/confirmMessage"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnShopMore"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/LightGreen"
+            android:padding="10dp"
+            android:text="Shop More"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.Restra.PopupOverlay"
+        app:title="My Cart"
+        app:titleTextColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/txtRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="0.7"
+        android:fontFamily="@font/n_extrabold"
+        android:padding="10dp"
+        android:text="Ordering From: Baco Tell:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:src="@drawable/custom_divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cartRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightGreen"
+        android:fontFamily="@font/n_bold"
+        android:padding="15dp"
+        android:text="Place Order (Total: Rs 420)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+</LinearLayout>

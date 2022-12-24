@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RestraTitle">
+        <item name="android:fontFamily">@font/restra_font</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>
